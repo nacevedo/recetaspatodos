@@ -11,11 +11,22 @@ console.log(url);
 function findRecetas(db, callback, ingredientes){
   const c = db.collection('RecetasPaTodos');
   console.log('haber k paza', ingredientes);
+  console.log();
+  if (ingredientes.length)
+  {
   c.find({'ingredientes': {$all:ingredientes}}).toArray((err, docs) => {
     if (err) throw err;
 
     callback(docs);
-  })
+  });
+}
+else{
+  c.find().toArray((err, docs) => {
+    if (err) throw err;
+
+    callback(docs);
+  });
+}
 }
 
 function getRecetas(callback, ingredientes){
