@@ -1,0 +1,23 @@
+{
+  "name": "recetaspatodos",
+  "version": "1.0.0",
+  "description": "Con esta aplicacion puedes encontrar las recetas para la vida diaria",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recetas",
+    "comida",
+    "bebida"
+  ],
+  "author": "Juan Sebastian Prieto & Cristian Camilo Novoa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.0.3",
+    "nodemon": "^1.17.1"
+  }
+}
