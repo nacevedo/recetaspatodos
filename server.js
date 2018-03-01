@@ -1,6 +1,10 @@
 var express = require('express');
 var bodyParser = require('body-parser')
 var app = express();
+var api = express();
+app.use('/api', api)
+api.use(bodyParser.urlencoded({ extended: false }))
+api.use(bodyParser.json())
 const creds = require("./credential.json");
 const MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://" + creds.user + ":" + creds.pass + "@ds0" + creds.port + ".mlab.com:" + creds.port + "/" + creds.db;
@@ -10,8 +14,6 @@ console.log(url);
 
 function findRecetas(db, callback, ingredientes){
   const c = db.collection('RecetasPaTodos');
-  console.log('haber k paza', ingredientes);
-  console.log();
   if (ingredientes.length)
   {
   c.find({'ingredientes': {$all:ingredientes}}).toArray((err, docs) => {
@@ -60,27 +62,28 @@ function postRe(callback, receta){
   });
 }
 
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
-app.post('/getData', function (req, res) {
+
+api.post('/getData', function (req, res) {
   getRecetas(function(tweets){
     console.log(req.body.ingredientes, 'que pasa aqui');
       res.send(tweets);
   }, req.body.ingredientes)
 })
 
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
+
 app.post('/postReceta', (req, res) => {
     console.log(req.body);
     postRe(r => res.send(r), req.body)
 })
 
-app.use(express.static("public"));
-app.get('/', function(req, res){
+//app.use(express.static("public"));
+api.get('/', function(req, res){
+  getRecetas(function(tweets){
+    res.send(tweets);
+  }, [])
 
 })
 
-app.listen(3000, () => {
-    console.log("Listening on :3000")
+app.listen(3001, () => {
+    console.log("Listening on :3001")
   });
