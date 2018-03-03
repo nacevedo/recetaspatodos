@@ -1,23 +1,16 @@
 import React from "react";
+import Receta from "./Receta.js";
 
 class ListaRecetas extends React.Component {
-
-
+  constructor() {
+    super();
+  }
   render() {
     let a = this.props.recetas;
-    if (a.length>9)
-      a.length=9;
+    if (a.length > 9) a.length = 9;
     return (
       <div className="col-md-9">
-        <div className="row">
-          {a.map(r => (
-            <div key={r._id} className="col-md-4">
-              <p>{r.nombre}</p>
-              <img src={r.imagen} alt="" width="100%" height="200px" />
-            </div>
-          ))}
-          <div className="col-md-3" />
-        </div>
+        <div className="row">{a.map(r => <Receta key={r._id+r.nombre} receta={r} />)}</div>
       </div>
     );
   }
