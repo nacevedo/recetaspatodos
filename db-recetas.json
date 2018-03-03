@@ -1,0 +1,441 @@
+[
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Torta turron de chocolate y almendras",
+      "ingredientes":[
+         "almendras",
+         "nueces",
+         "avellanas",
+         "semillas de girasol",
+         "esencia de vainilla",
+         "ralladura de naranja",
+         "canela",
+         "coco rallado",
+         "azucar mascabado",
+         "sal",
+         "castanhas de caju",
+         "leche de almendras",
+         "cacao amargo en polvo",
+         "ralladura de naranja o limon",
+         "esencia de almendras",
+         "azucar integral"
+      ],
+      "explicacion":"Para el turron, mezclar todos los ingredientes en un bol e integrarlos. Aceitar una placa, esparcir la mezcla uniformemente y llevar al horno medio por 5'. Aceitar un molde desmontable de 16 cm de diametro e incorporar el turron todavia caliente. Dejar enfriar.  Para la ganache y la crema de almendra, colocar por separado todos los ingredientes en la licuadora y procesar hasta obtener una crema tersa. Reservar en la heladera.  Para armar el plato: sobre el turron colocar uniformemente la ganache de chocolate. Cubrir dos tercios de la capacidad del molde y llevar al freezer durante media hora hasta que solidifique. Luego sumar la capa de crema almendrada y volver a guardar en el freezer hasta media hora antes de servir. Decorar con flores comestibles.",
+      "categoria":"postres",
+      "imagen":"https://www.recetas.com/files/recipe/medium/t/turronlado_3.jpg",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Crema de arvejas al limon",
+      "ingredientes":[
+         "caldo de carne",
+         "arvejas",
+         "huevos",
+         "jamon",
+         "jugo de limon",
+         "crema de leche",
+         "cascara de limon",
+         "albahaca",
+         "limon"
+      ],
+      "explicacion":"Hacer hervir el caldo, que puede ser preparado con cubos, junto con un poco de albahaca, fresca o seca. Agregar las arvejas peladas y dejarlas hervir durante 10 minutos o hasta que esten apenas tiernas. Anhadir el jamon cortado en daditos. Mezclar los huevos con el jugo de limon y la crema de leche, acida o natural, a gusto. Retirar la sopa del fuego y anhadir esa mezcla, luego llevarla a fuego suave, con la cascara de limon, revolviendo para ligar, y cuidando de que no hierva; solo debe calentarse.",
+      "categoria":"sopas",
+      "imagen":"https://www.recetas.com/files/recipe/medium/c/crema-arveja_3.jpg",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Cerdo estofado con salsa picante",
+      "ingredientes":[
+         "carne de cerdo",
+         "vino tinto",
+         "cebolla",
+         "zanahoria",
+         "ajo",
+         "romero",
+         "salvia",
+         "laurel",
+         "clavo",
+         "aceite de oliva",
+         "sal",
+         "pimienta negra"
+      ],
+      "explicacion":"Lavar la carne y frotarla con un poco de papel absorbente para secarla. Lavar las verduras; cortra la cebolla en trozos, el apio y la zanahoria en trozos pequenhos. Prepare un ramito de aromas con romero, salvia y laurel y atarlo con un hilo. Colocar la carne con las verduras en una fuente grande, agregar 2 dientes de ajo enteros, algunos clavos de olor y pimienta negra en granos y el vino. Cubrir con una pelicula y dejar reposar en la nevera durante 12 horas. Despues del marinado, calentar en una sarten 4 cucharadas de aceite de oliva virgen extra; retirar la carne de la fuente y dorarla a fuego alto durante unos diez minutos por cada lado, hasta que se forme una costra. A continuacion, agregar las verduras, cocinar otros 10 minutos y mojar con el vino. Salar, bajar el fuego, tapar y cocinar durante aproximadamente una hora, volteandola de vez en cuando. Cuando este cocida, retirar la carne y mantener caliente: Procesar el fondo de coccion con un mixer. Cortar la carne y verter la salsa sobre ella antes de servir. Precauciones: si el vino se secara demasiado durante la coccion y la carne se pega, agregar caldo de carne o agua caliente. Ideas y variantes: Se agregar canela, o una cucharadita de pimenton dulce en polvo o, si le gustan los sabores mas fuertes, chile o mostaza en polvo.",
+      "categoria":"plata fuerte",
+      "imagen":"https://www.recetas.com/files/recipe/medium/c/cerdo-estofado-con-salsa-picante_5t3rl",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Gambas a la cantonesa",
+      "ingredientes":[
+         "gambas",
+         "salsa de soja",
+         "tomate",
+         "chile picante",
+         "ajo",
+         "mantequilla",
+         "sal"
+      ],
+      "explicacion":"caliente la mantequilla en una cacerola y freir las gambas, previamente peladas, por unos minutos en cada lado. Retirarlas del calor y reservar. Usar la misma sarten para dorar los dientes de ajo. Agregar el chile y los tomates cortados en rodajas finas. Sazonar con sal. Freir por unos minutos y agregar la salsa de soja. Cocinarar 10 minutos y verter la salsa recien preparada sobre las gambas. Servir caliente con arroz. Notas: Pelar las gambas dejando intactas las colas. Ideas y variaciones: Se puede agregar una cucharada de jugo de limon al final de la coccion.",
+      "categoria":"mariscos y mariscos",
+      "imagen":"https://www.recetas.com/files/recipe/medium/g/gambas-a-la-cantonesa_1om8a",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Espaguetis borrachos",
+      "ingredientes":[
+         "vino tinto",
+         "espagueti",
+         "aceite de oliva",
+         "perejil",
+         "ajo",
+         "queso rallado",
+         "chile picante",
+         "sal"
+      ],
+      "explicacion":"Verter el vino en una cacerola y dejarlo hervir unos 15-20 minutos. Picar unas ramitas de perejil con un poco de ajo y un poco de chile fresco. Freir la mezcla en una sarten grande con 60 gr. de aceite. Cocer los espaguetis en agua hirviendo con sal durante un poco mas de la mitad de su tiempo de coccion. Escurrir y verter en la sarten con el picadillo salteado. Anhadir poco a poco el vino, completando la coccion de la pasta. Servir con un generoso punhado de queso de oveja rallado y mas perejil picado.",
+      "categoria":"afrodisiaco",
+      "imagen":"https://www.recetas.com/files/recipe/medium/e/espaguetis-borrachos_6o8un",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Carne asada a la naranja",
+      "ingredientes":[
+         "carne de novillo",
+         "matequilla",
+         "aceite de oliva",
+         "apio",
+         "vino blanco",
+         "zanahorias",
+         "naranja",
+         "zumo de naranja",
+         "brandy",
+         "sal",
+         "caldo de carne",
+         "cebolla"
+      ],
+      "explicacion":"Cortar en dados la cebolla, las zanahorias y los tallos de apio y reservarloso. Atar el corte de carne para que conserve la forma durante la coccion. En una olla bastante grande verter el aceite de oliva virgen extra y mantequilla: tan pronto como esten calientes, colocar la carne y cocinar a fuego alto, girando por todos lados para dorar uniformemente. Cuando la carne este dorada, incorporar las verduras reservadas y sudarlas, removiendo para que tomen sabor del fondo de coccion Agregar el vino blanco, salar ligeramente y dejar que se evapore el alcohol del vino. Agregar un cucharon de caldo caliente y cocinar la carne a fuego lento durante aproximadamente una hora y media, con la olla tapada. Durante este tiempo, agregar el caldo restante, de aun cucharon a la vez, tan pronto como se vea que la carne se esta secando. Al final de la coccion, retirar la carne de la olla y envolverla en papel de aluminio para mantenerla caliente y asegurarse de que el calor se distribuya bien en el interior. Reservar las verduras y el fondo de coccion. Rallar la corteza de una naranja y exprimir el jugo, luego exprimir el jugo de la segunda naranja. Transferir las verduras y el fondo de coccion al vaso del mixer y procesarlas. Volver a poner el fondo de coccion procesado en la olla donde se cocino la carne y agregar la cascara de naranja, el jugo de las dos naranjas y finalmente un vaso pequenho de brandy. Cocinar a fuego lento durante unos minutos para que la salsa de naranja se espese y mezcle bien. Pelar la naranja restante con un cuchillo pequenho y cortarla en rodajas. Cortar la carne en rodajas y adornar cada una con una cucharada de salsa y una rodaja de naranja, servir inmediatamente",
+      "categoria":"plato fuerte",
+      "imagen":"https://www.recetas.com/files/recipe/medium/c/carne-asada-a-la-naranja_f7n63",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Espagueti con atun",
+      "ingredientes":[
+         "espagueti",
+         "atun en aceite",
+         "tomate",
+         "aceite de oliva",
+         "sal",
+         "pimienta negra",
+         "albahaca",
+         "cebolla"
+      ],
+      "explicacion":"Poner a hervir una olla com agua y sal al gusto, que se usara para cocinar la pasta. Escurrir el aceite del atun. Pelar la cebolla y cortarla finamente. Calentar el aceite de oliva en una sarten y agregar la cebolla en rodajas. Dejar que se cocine a fuego lento durante unos minutos, revolviendo con frecuencia; deshacer el atun con las manos y agregarlo a la sarten cuando la cebolla este blanda y dejar que se dore durante un par de minutos, revolviendo constantemente. Triturar los tomates pelados con un tenedor y verterlos en la sarten con el atun; cocinar la salsa durante unos 10 minutos. Mientras tanto, hervir los espaguetis, cocinarlos al dente: en el tiempo de coccion de la pasta, la salsa estara lista. Escurrir los espaguetis directamente en la sarten con el atun, sazonar con la pimienta molida, apagar el fuego, perfumar con las hojas de albahaca fresca, mezclar y servir.",
+      "categoria":"pescado",
+      "imagen":"https://www.recetas.com/files/recipe/medium/e/espagueti-con-atun_vcauq",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Ensalada tibia de pollo y aguacate",
+      "ingredientes":[
+         "pechuga de pollo",
+         "limon",
+         "aceite de oliva",
+         "marsala",
+         "pinhones",
+         "mostaza",
+         "uvas pasas",
+         "aguacate",
+         "sal y pimienta"
+      ],
+      "explicacion":"Enjuagar las pasas y dejarlas en el marsala durante 15 minutos. Exprimir el jugo de limon y diluir la mostaza con 2 cucharadas de aceite de oliva virgen extra. Aplanar la pechuga de pollo con el ablandador de carne, luego cortarla en tiras y saltarlas en una sarten con el aceite de oliva hasta que se doren. Sazonar con sal y pimienta. Pelar el aguacate, abrirlo por la mitad y, despues de quitar el carozo, cortar la pulpa en cubitos. Mojar con jugo de limon para no ennegrecerla. Tostar los pinhones en una sarten antiadherente durante unos minutos. Escurrir y secar las pasas con el papel absorbente. Reunir el pollo, el aguacate, las pasas y los pinhones en un tazon, luego sazonar con la mostaza diluida y servir.",
+      "categoria":"ensalada",
+      "imagen":"https://www.recetas.com/files/recipe/medium/e/ensalada-tibia-de-pollo-y-aguacate_xd1oe",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Frijoles tejanos",
+      "ingredientes":[
+         "frijoles",
+         "maiz",
+         "pimiento",
+         "salchicha",
+         "salsa de tomate",
+         "cebolla",
+         "caldo de verduras",
+         "aceite de oliva",
+         "chile picante",
+         "sal"
+      ],
+      "explicacion":"En una sarten dorar bien la salchicha en un poco de aceite durante 10 minutos por todos los lados. Reservar en un plato. Con la ayuda de un colador, escurrir bien los frijoles del agua. Reservarlos. Hacer lo mismo con el maiz. Lavar y limpiar el pimiento. Cortarlo en cubos, tratando de darles el mismo tamanho. En una olla aparte, freir la cebolla finamente cortada en una cucharada de aceite. Agregar el pimiento morron y cocinar durante 5 minutos. Incorporar los frijoles, el caldo y la salsa de tomate. Cocinar por 10 minutos, sazonar con sal y pimienta. Finalmente, agregar el maiz y la salchicha cortada en trozos. Cocinar por 10 minutos. Si es necesario, sazonar con sal y pimienta y servir con arroz y tortillas. Sugerencia: Si no se utilizan frijoles precocidos, la coccion sera mas larga y requerira mas caldo. Ideas y variaciones: En lugar de salchichas, se puede usar tocino y reemplazar el pimiento con los tipicos jalapenhos mexicanos.",
+      "categoria":"entradas",
+      "imagen":"https://www.recetas.com/files/recipe/medium/f/frijoles-tejanos_gl2yj",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Chile vegetariano en tortillas",
+      "ingredientes":[
+         "vinagre blanco",
+         "ajo",
+         "aceite de oliva",
+         "oregano",
+         "pimiento amarillo",
+         "pimiento verde",
+         "sal",
+         "tomates",
+         "perejil",
+         "lechuga",
+         "frijoles",
+         "chile en polvo",
+         "cebolla",
+         "carne de trigo",
+         "salsa worcester",
+         "azucar",
+         "tortillas"
+      ],
+      "explicacion":"Cortar 500 gr. de seitan en tiras, enharinarlas y dorarlas con 5 cucharadas de aceite. Escurrir y, en la misma sarten, dorar 2 cebollas y 1 diente de ajo picado. Agregar nuevamente el seitan y 1 cucharada de chile en polvo. Anhadir los tomates picados, oregano, unas gotas de salsa Worcester, 1 cucharadita de azucar y vinagre y sal; cocinar por 50 minutos. Cortar en tiras 1 pimiento amarillo y 1 pimiento verde, dorarlos y agregarlos al chile con 500 gr. de frijoles hervidos, cocinar durante 20 minutos y condimentar con sal. Servir en tortillas calientes y decorar con perejil. Acompanhar con una ensalada de lechuga, tomate y aguacate.",
+      "categoria":"entradas",
+      "imagen":"https://www.recetas.com/files/recipe/medium/c/chile-vegetariano-en-tortillas_962t5",
+      "esVeg":true
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"Creme brulee a la naranja",
+      "ingredientes":[
+         "naranjas",
+         "yema de huevo",
+         "nata",
+         "leche",
+         "azucar"
+      ],
+      "explicacion":"Rallar la cascara de naranja y exprimir el jugo, hasta obtener aproximadamente 100 ml (si es necesario, exprimir 2). Verter la leche, la nata, el jugo de naranja y 1 cucharadita de corteza rallada en una cacerola y llevar al fuego. Poner todo a hervir (a fuego lento) y luego apagar. En un tazon mezclar las yemas de huevo con el azucar, sin montarlas, sino simplemente batiendolas rapidamente para que se mezclen hasta obtener una mezcla uniforme y homogenea. Agregar a la mezcla de yemas de huevo y azucar la leche caliente, vertiendola en forma de hilo, sin dejar de mezclar. Repartir la mezcla en moldes para horno apropiados para la crème brûle y hornear en el horno precalentado a 170 ° C, en un banho maria, durante aproximadamente 45-50 minutos. Una vez retirados del horno, dejar enfriar un poco, luego espolvorear la superficie con el azucar rubia y caramelizar con utilizando con un soplete de cocina o bajo el grill. Servir inmediatamente.",
+      "categoria":"postres",
+      "imagen":"https://www.recetas.com/files/recipe/medium/c/creme-brule-a-la-naranja_rnqel",
+      "esVeg":true
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"puntas de res en salsa de champinhon",
+      "ingredientes":[
+         "aceite",
+         "punta de filete",
+         "cebolla",
+         "ajo",
+         "jitomate",
+         "chile serrans",
+         "crema de champinhones",
+         "sal",
+         "cilantro"
+      ],
+      "explicacion":"Calienta el aceite en una sarten profundo a fuego alto, frie las puntas de res 5 minutos o hasta que esten doraditas. Agrega la cebolla, el ajo y cuece por 2 minutos mas. Agrega el jitomate y el chile termina de cocer por 3 minutos mas Agrega la crema de champinhon y una lata de agua, baja la temperatura cocina por 10 minutos mas y sazona. Antes de servir agrega el cilantro y mezcla.",
+      "categoria":"carne",
+      "imagen":"https://cdn.kiwilimon.com/recetaimagen/27188/25227.jpg",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"filete de res con champinhon y madeira",
+      "ingredientes":[
+         "filete de res",
+         "caldo de pollo",
+         "caldo de res",
+         "madeira",
+         "crema para batir",
+         "mantequilla",
+         "aceite de oliva",
+         "champinhon",
+         "cebolla",
+         "ajo",
+         "perejil"
+      ],
+      "explicacion":"Derrita 1 cucharada de aceite de oliva y 2 cucharadas de mantequilla en un sarten grande a fuego medio. Agregue los champinhones y saltee hasta que esten bien cocidos (aprox. 8 minutos). Agregue el perejil y sazone con sal y pimienta. Coloque los champinhones en un recipiente hondo. Agregue al sarten la mantequilla y aceite restante y caliente a fuego medio. Sazone los filetes con sal y pimienta y cocine el sarten por aproximadamente 3-4 minutos de cada lado o hasta que esten al termino que desee. Retire del sarten y coloque en un plato caliente para que no se enfrien mientras hace la salsa. Agregue la cebolla y el ajo y dore por 3 minutos. Agregue el Madeira y permita que hierva por 2-3 minutos o hasta que se haya reducido a la mitad. Agregue el caldo de pollo o res y permita que heriva por 7-8 minutos mas. Agregue la crema y continue hirviendo por 2-3 minutos mas. Agregue los champinhones y mezcle. Pruebe la salsa y sazone con sal y pimienta. Regrese los filetes al sarten y cocine por 30 segundos en la salsa, retire del fuego y sirva.",
+      "categoria":"carne",
+      "imagen":"https://cdn.kiwilimon.com/recetaimagen/1357/3438.jpg",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"ensalada de zanahoria",
+      "ingredientes":[
+         "zanahoria",
+         "limon",
+         "caldo de pollo",
+         "azucar",
+         "sal",
+         "pimienta",
+         "aceite de oliva",
+         "uva pasa"
+      ],
+      "explicacion":"Corta las zanahorias en tiritas. En un recipiente hondo mezcla el jugo de limon, la sal, pimienta, azucar y consome de pollo en polvo. Agrega a la vinagreta el aceite de oliva. Mezcla las zanahorias bien con el aderezo. Agrega las pasas e integra.",
+      "categoria":"ensalada",
+      "imagen":"https://cdn.kiwilimon.com/recetaimagen/171/27457.jpg",
+      "esVeg":true
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"hojaldritas hawaianas",
+      "ingredientes":[
+         "hojaldre",
+         "pasta de tomate",
+         "queso gorgonzola",
+         "quedo gouda",
+         "jamon",
+         "pinha en almibar",
+         "oregano",
+         "huevo"
+      ],
+      "explicacion":"Barniza todos los rectangulos con huevo y coloca en una charola para horno. Hornea alrededor de 20 minutos o hasta que esten dorados. Sirve caliente o al tiempo. ",
+      "categoria":"ninhos",
+      "imagen":"https://cdn.kiwilimon.com/recetaimagen/28804/29688.jpg",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"hamburguesa hawaiana",
+      "ingredientes":[
+         "carne molida",
+         "cebolla",
+         "ajo",
+         "perejil",
+         "queso parmesano",
+         "mostaza",
+         "huevo",
+         "sal",
+         "aceite",
+         "pinha",
+         "salsa de tomate",
+         "azucar",
+         "salsa de soya",
+         "salsa inglesa",
+         "paprika",
+         "vinagre de manzana",
+         "lechuga",
+         "aguacate",
+         "pan de hamburguesa",
+         "queso manchego"
+      ],
+      "explicacion":"Para la carne, mezcla todos los ingredientes y forma hamburguesas con las manos. Calienta el aceite a fuego medio en una sarten y frie cada hamburguesa hasta que este cocida. Reserva. Corta el queso en rebanadas de acuerdo al tamanho de la pinha. Colocalo sobre la pinha cuidando de no cubrir el centro y envuelvelas con tocino. Reserva. Combina todos los ingredientes de la salsa hasta obtener una mezcla homogenea. Reserva. En una sarten parrilla, cocina las pinhas a fuego medio, banhandolas con la salsa hasta que el tocino quede doradito. Arma las hamburguesas colocando la carne en el pan sobre lechuga, la pinha y el aguacate. Sirve.",
+      "categoria":"ninhos",
+      "imagen":"https://cdn.kiwilimon.com/recetaimagen/27092/25059.jpg",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"botanas de salchichas",
+      "ingredientes":[
+         "salchicha",
+         "cebolla",
+         "chile serrano",
+         "aceite vegetal",
+         "maggi",
+         "salsa inglesa",
+         "jugo de limon",
+         "salsa valentina",
+         "salsa tabasco",
+         "salsa de tomate",
+         "jitomate"
+      ],
+      "explicacion":"Para las salchichas calientes: Calienta uns sarten a fuego medio con el aceite y cocina la cebolla. Agrega los chiles y las salchichas, cocina alrededor de 5 minutos. Apaga el fuego y mezcla la salsas y el jugo de limon. Sirve aun calientes. Sirve aun calientes. Para las salchichas frias: Mezcla todos los ingredientes en un bowl. Sirve.",
+      "categoria":"botanas",
+      "imagen":"https://cdn.kiwilimon.com/recetaimagen/30006/32244.jpg",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"hot cakes clasicos con frutos rojos",
+      "ingredientes":[
+         "harina de trigo",
+         "azucar refinada",
+         "bicarbonato de sodio",
+         "polvo para hornear",
+         "sal",
+         "leche",
+         "huevo",
+         "vainilla",
+         "mantequilla",
+         "crema batida",
+         "zarzamora",
+         "frambuesa",
+         "miel de maple"
+      ],
+      "explicacion":"En un bowl mezcla la harina de trigo con el azucar, el bicarbonato de sodio, el polvo para hornear, la sal, la leche, el huevo y la vainilla. Bate hasta integrar y tener una mezcla homogenea. Calienta una sarten a fuego medio con la mantequilla, con un cucharon forma hot cakes, gira hasta que tenga burbujas y dore. Coloca los hotcakes uno encima de otro, decora con crema batida, frutos rojos y miel de maple.",
+      "categoria":"desayuno",
+      "imagen":"https://cdn.kiwilimon.com/recetaimagen/29008/30702.jpg",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"omelette caprese",
+      "ingredientes":[
+         "huevo",
+         "queso mozzarella",
+         "mantequilla",
+         "sal",
+         "pimienta",
+         "jitomate cherry",
+         "albahaca"
+      ],
+      "explicacion":"Coloca los huevos en un bol y sazona con sal y pimienta al gusto, bate hasta que esten mezclados. Agrega un poco de mantequilla (opcional) en un sarten para huevos, despues agrega el queso, los jitomates y albahaca, vierte un poco de huevo encima de los ingredientes y tapa, cocina por 5 minutos a fuego bajo o hasta que esten listos los omelettes.",
+      "categoria":"desayuno",
+      "imagen":"",
+      "esVeg":false
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"champinhones al ajillo",
+      "ingredientes":[
+         "aceite",
+         "ajo",
+         "champinhones",
+         "perejil",
+         "sal"
+      ],
+      "explicacion":"Limpiar bien los champinhones, cortarlos en laminas y salarlos. En una sarten con aceite, poner a freir los ajos cortados a laminas y cuando empiecen a tomar ligeramente color dorado, anhadir los champinhones. Darles unas vueltas y agregar abundante perejil picado. Seguir rehogandolos hasta que los champinhones esten en su punto.",
+      "categoria":"ensalada",
+      "imagen":"http://www.recetas.net/Imagen_web/Champinones-al-Ajillo.aspx?idx=3&nId=4620&hash=5570e220aa6596a73ce8311bba5a13ef",
+      "esVeg":true
+   },
+   {
+      "author": "Juan Sebstian Prieto",
+      "email": "js.prieto10@uniandes.edu.co",
+      "nombre":"carpaccio de melon y jamon",
+      "ingredientes":[
+         "aceite de oliva",
+         "jamon serrano",
+         "melon"
+      ],
+      "explicacion":"Echar en la base del plato un poco de aceite. Cortar en lonchas finas el melon y colocar sobre el aceite. (Si el melon nos ha salido soso, agregar unas gotas de limon sobre el, al colocarlo en el plato. Si el melon es sabroso, mejor no echarle nada para no restarle sabor). Encima del melon, poner el jamon cortado tambien en lonchas finas y regar otra vez con aceite. Decorar con bolitas de melon y unas tiras de la corteza de este.",
+      "categoria":"innovacion",
+      "imagen":"http://www.recetas.net/Imagen_web/Carpaccio-de-melon-y-jamon.aspx?idx=3&nId=2476&hash=762d985558e9c2c9bd41341379c4f253",
+      "esVeg":false
+   }
+]

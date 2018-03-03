@@ -1,41 +1,40 @@
-var express = require('express');
-var bodyParser = require('body-parser')
+var express = require("express");
+var bodyParser = require("body-parser");
 var app = express();
 var api = express();
-app.use('/api', api)
-api.use(bodyParser.urlencoded({ extended: false }))
-api.use(bodyParser.json())
+app.use("/api", api);
+api.use(bodyParser.urlencoded({ extended: false }));
+api.use(bodyParser.json());
 const creds = require("./credential.json");
-const MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://" + creds.user + ":" + creds.pass + "@ds0" + creds.port + ".mlab.com:" + creds.port + "/" + creds.db;
+const MongoClient = require("mongodb").MongoClient;
+const url = "mongodb://" + creds.user + ":" + creds.pass + "@ds0" + creds.port + ".mlab.com:" + creds.port + "/" + creds.db;
 console.log(url);
-// Find some documents
 
 
 function findRecetas(db, callback, ingredientes){
-  const c = db.collection('RecetasPaTodos');
+  const c = db.collection("RecetasPaTodos");
   if (ingredientes.length)
   {
-  c.find({'ingredientes': {$all:ingredientes}}).toArray((err, docs) => {
-    if (err) throw err;
+    c.find({"ingredientes": {$all:ingredientes}}).toArray((err, docs) => {
+      if (err) throw err;
 
-    callback(docs);
-  });
-}
-else{
-  c.find().toArray((err, docs) => {
-    if (err) throw err;
+      callback(docs);
+    });
+  }
+  else{
+    c.find().toArray((err, docs) => {
+      if (err) throw err;
 
-    callback(docs);
-  });
-}
+      callback(docs);
+    });
+  }
 }
 
 function getRecetas(callback, ingredientes){
   MongoClient.connect(url, (err, client)=> {
     if (err) throw err;
     console.log("Connected successfully to server");
-    const db = client.db('webdev');
+    const db = client.db("webdev");
 
     findRecetas(db, callback, ingredientes);
     client.close();
@@ -43,11 +42,11 @@ function getRecetas(callback, ingredientes){
 }
 
 function postReceta(db, callback, receta){
-  const col = db.collection('RecetasPaTodos');
+  const col = db.collection("RecetasPaTodos");
   col.save(receta, (err, r) =>{
     if (err) throw err;
     console.log(r);
-    callback(receta)
+    callback(receta);
   });
 }
 
@@ -55,7 +54,7 @@ function postRe(callback, receta){
   MongoClient.connect(url, (err, client)=> {
     if (err) throw err;
     console.log("Connected successfully to server");
-    const db = client.db('webdev');
+    const db = client.db("webdev");
 
     postReceta(db, callback, receta);
     client.close();
@@ -63,27 +62,21 @@ function postRe(callback, receta){
 }
 
 
-api.post('/getData', function (req, res) {
-  getRecetas(function(tweets){
-    console.log(req.body.ingredientes, 'que pasa aqui');
-      res.send(tweets);
-  }, req.body.ingredientes)
-})
+api.post("/getData", function (req, res) {
+  getRecetas(function(tweets){res.send(tweets);} , req.body.ingredientes);}
+);
 
 
-app.post('/postReceta', (req, res) => {
-    console.log(req.body);
-    postRe(r => res.send(r), req.body)
-})
+app.post("/postReceta", (req, res) => {postRe(r => res.send(r), req.body);});
 
 //app.use(express.static("public"));
-api.get('/', function(req, res){
+api.get("/", function(req, res){
   getRecetas(function(tweets){
     res.send(tweets);
-  }, [])
+  }, []);
 
-})
+});
 
 app.listen(3001, () => {
-    console.log("Listening on :3001")
-  });
+  console.log("Listening on :3001");
+});
