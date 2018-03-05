@@ -65,7 +65,6 @@ function postRe(callback, receta){
 
 
 
-
 api.post("/getData", function (req, res) {
   console.log("getData");
   getRecetas(function(tweets){res.send(tweets);} , req.body.ingredientes);}

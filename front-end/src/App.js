@@ -55,7 +55,9 @@ class App extends React.Component {
           <div className="row">
             <ListaRecetas
               recetas={this.state.recetas.filter(r => {
-                r.nombre.toLowerCase().startsWith(this.state.search.toLowerCase());
+                return r.nombre
+                  .toLowerCase()
+                  .startsWith(this.state.search.toLowerCase());
               })}
             />
             <div className="col-md-3">
