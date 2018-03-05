@@ -1,6 +1,4 @@
 import React from "react";
-import "./App.css";
-import NavBar from "./components/NavBar.js";
 import ListaRecetas from "./components/ListaRecetas.js";
 import SearchBox from "./components/SearchBox.js";
 import FiltroIngredientes from "./components/FiltroIngredientes.js";
@@ -16,7 +14,9 @@ class App extends React.Component {
 
   componentDidMount() {
     fetch("/api")
-      .then(res => res.json())
+      .then(res => {
+        return res.json();
+      })
       .then(recetas => this.setState({ recetas: recetas }));
   }
 
@@ -27,6 +27,7 @@ class App extends React.Component {
   }
 
   ingredients(lista) {
+    this.setState({ recetas: [] });
     let data = { ingredientes: lista };
     fetch("/api/getData", {
       body: JSON.stringify(data),
@@ -44,7 +45,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
         <div className="con">
           <br />
           <br />

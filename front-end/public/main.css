@@ -1,0 +1,398 @@
+/** aqui comienza el estilo a las cosas más globales */
+
+div.con {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab";
+}
+
+p.desc {
+  font-size: 1.1vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+
+  position: relative;
+}
+
+li.ingr {
+  font-size: 1.1vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(200, 200, 200);
+  background-size: cover;
+}
+
+h1.mod {
+  font-size: 3vw;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.75;
+  text-align: center;
+  background-color: rgb(60, 60, 60);
+  color: rgba(254, 209, 55, 0.8);
+}
+
+a {
+  color: #fed136;
+}
+
+a:hover {
+  color: #fec503;
+}
+
+.text-primary {
+  color: #fed136 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: "Droid Serif";
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 10px 0;
+  }
+}
+
+.btn {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: white;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+::selection {
+  background: #fed136;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+/** aqui comienza el estilo a las cosas más globales */
+/** aqui los estilos los estilos para la navegación */
+
+#mainNav {
+  background-color: grey;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: grey;
+  border: 0;
+  background-color: #fed136;
+  font-family: "Montserrat";
+}
+
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script";
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-family: "Montserrat";
+}
+
+#mainNav .nav-item .nav-link.active,
+#mainNav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+}
+/** aqui acaba los  para la navegación */
+
+/** aqui van los estilos para el header */
+header.masthead {
+  text-align: center;
+  color: white;
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .intro-text {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-subtitle {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: "Droid Serif";
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: "Montserrat";
+}
+
+.profile-picture {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+@media (min-width: 450px) {
+  .profile-picture {
+    margin-top: 120px;
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-picture {
+    margin-top: 90px;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+  }
+  header.masthead .intro-text .intro-subtitle {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+
+/** aqui van los estilos para el timeline */
+.timeline {
+  padding: 0;
+  list-style: none;
+}
+
+.timeline:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 55px;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #e9ecef;
+}
+
+.timeline > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+
+.timeline > li:after,
+.timeline > li:before {
+  display: table;
+  content: " ";
+}
+
+.timeline > li:after {
+  clear: right;
+}
+
+.timeline > li .timeline-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+
+.timeline > li .timeline-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #fed136;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    min-height: 100px;
+    margin-bottom: 100px;
+  }
+  .timeline > li .timeline-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+/** aqui acaba el timeline */
+
+/** aqui margenes para tags que sobraron en llamar antes */
+
+section#skills {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+img#sobre {
+  margin-top: 0px;
+}
+
+img#espera {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+loading{
+  
+}

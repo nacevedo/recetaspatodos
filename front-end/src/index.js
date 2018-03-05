@@ -1,8 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./App";
-import registerServiceWorker from "./registerServiceWorker";
+import Post from "./Post";
 
-ReactDOM.render(<App />, document.getElementById("root"));
-registerServiceWorker();
+// Copied from http:jquery-howto.blogspot.com/2009/09/get-url-parameters-values-with-jquery.html
+function getUrlVars() {
+  return window.location.pathname.split(".")[0];
+}
+
+var pathname = getUrlVars();
+
+switch (pathname) {
+case "/agregar":
+  ReactDOM.render(<Post />, document.getElementById("root"));
+  break;
+
+case undefined:
+default:
+  ReactDOM.render(<App />, document.getElementById("root"));
+  break;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "react-responsive-modal";
-
+import LoadingSpinner from './LoadingSpinner.js'
 class ListaRecetas extends React.Component {
 
   constructor () {
@@ -29,14 +29,16 @@ class ListaRecetas extends React.Component {
     let a = this.props.recetas;
     if (a.length>9)
       a.length=9;
-    return (
+    if (a.length==0)
+      return(<div className ="col-md-9"><LoadingSpinner /></div>)
+    return(
       <div className="col-md-9">
         <div className="row">
           {a.map(r => (
             <div key={r._id} className="col-md-4">          
               <img src={r.imagen} onClick={this.openModal.bind(this, r._id)} alt="" width="100%" height="200px" />
               <p>{r.nombre}</p>
-              <Modal  open={this.state.open[r._id]} onClose={this.onCloseModal}>
+              <Modal open={this.state.open[r._id]} onClose={this.onCloseModal}>
 
           <h1 className= "mod">{r.nombre}</h1>
           <div className="row">
@@ -59,7 +61,7 @@ class ListaRecetas extends React.Component {
           <div className="col-md-3" />
         </div>
       </div>
-    );
+    )
   }
 }
 

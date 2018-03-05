@@ -63,14 +63,18 @@ function postRe(callback, receta){
 
 
 api.post("/getData", function (req, res) {
+  console.log("getData");
   getRecetas(function(tweets){res.send(tweets);} , req.body.ingredientes);}
 );
 
 
-app.post("/postReceta", (req, res) => {postRe(r => res.send(r), req.body);});
+api.post("/postReceta", (req, res) => {
+  console.log("entro");
+  postRe(r => res.send(r), req.body);});
 
 //app.use(express.static("public"));
 api.get("/", function(req, res){
+  console.log("api general");
   getRecetas(function(tweets){
     res.send(tweets);
   }, []);
@@ -78,5 +82,5 @@ api.get("/", function(req, res){
 });
 
 app.listen(3001, () => {
-  console.log("Listening on :3001");
+  console.log("Listening on:");
 });
