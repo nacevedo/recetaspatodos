@@ -8,6 +8,8 @@ api.use(bodyParser.json());
 const creds = require("./credential.json");
 const MongoClient = require("mongodb").MongoClient;
 const url = "mongodb://" + creds.user + ":" + creds.pass + "@ds0" + creds.port + ".mlab.com:" + creds.port + "/" + creds.db;
+const path = require("path");
+app.use(express.static(path.join(__dirname, "front-end/build")));
 console.log(url);
 
 
@@ -62,6 +64,8 @@ function postRe(callback, receta){
 }
 
 
+
+
 api.post("/getData", function (req, res) {
   console.log("getData");
   getRecetas(function(tweets){res.send(tweets);} , req.body.ingredientes);}
@@ -72,7 +76,7 @@ api.post("/postReceta", (req, res) => {
   console.log("entro");
   postRe(r => res.send(r), req.body);});
 
-//app.use(express.static("public"));
+
 api.get("/", function(req, res){
   console.log("api general");
   getRecetas(function(tweets){
