@@ -7,23 +7,30 @@ api.use(bodyParser.urlencoded({ extended: false }));
 api.use(bodyParser.json());
 const creds = require("./credential.json");
 const MongoClient = require("mongodb").MongoClient;
-const url = "mongodb://" + creds.user + ":" + creds.pass + "@ds0" + creds.port + ".mlab.com:" + creds.port + "/" + creds.db;
+const url =
+  "mongodb://" +
+  creds.user +
+  ":" +
+  creds.pass +
+  "@ds0" +
+  creds.port +
+  ".mlab.com:" +
+  creds.port +
+  "/" +
+  creds.db;
 const path = require("path");
 app.use(express.static(path.join(__dirname, "front-end/build")));
 console.log(url);
 
-
-function findRecetas(db, callback, ingredientes){
+function findRecetas(db, callback, ingredientes) {
   const c = db.collection("RecetasPaTodos");
-  if (ingredientes.length)
-  {
-    c.find({"ingredientes": {$all:ingredientes}}).toArray((err, docs) => {
+  if (ingredientes.length) {
+    c.find({ ingredientes: { $all: ingredientes } }).toArray((err, docs) => {
       if (err) throw err;
 
       callback(docs);
     });
-  }
-  else{
+  } else {
     c.find().toArray((err, docs) => {
       if (err) throw err;
 
@@ -32,8 +39,8 @@ function findRecetas(db, callback, ingredientes){
   }
 }
 
-function getRecetas(callback, ingredientes){
-  MongoClient.connect(url, (err, client)=> {
+function getRecetas(callback, ingredientes) {
+  MongoClient.connect(url, (err, client) => {
     if (err) throw err;
     console.log("Connected successfully to server");
     const db = client.db("webdev");
@@ -43,17 +50,17 @@ function getRecetas(callback, ingredientes){
   });
 }
 
-function postReceta(db, callback, receta){
+function postReceta(db, callback, receta) {
   const col = db.collection("RecetasPaTodos");
-  col.save(receta, (err, r) =>{
+  col.save(receta, (err, r) => {
     if (err) throw err;
     console.log(r);
     callback(receta);
   });
 }
 
-function postRe(callback, receta){
-  MongoClient.connect(url, (err, client)=> {
+function postRe(callback, receta) {
+  MongoClient.connect(url, (err, client) => {
     if (err) throw err;
     console.log("Connected successfully to server");
     const db = client.db("webdev");
@@ -63,25 +70,27 @@ function postRe(callback, receta){
   });
 }
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/front-end/build/index.html"));
+});
 
-
-api.post("/getData", function (req, res) {
+api.post("/getData", function(req, res) {
   console.log("getData");
-  getRecetas(function(tweets){res.send(tweets);} , req.body.ingredientes);}
-);
-
+  getRecetas(function(tweets) {
+    res.send(tweets);
+  }, req.body.ingredientes);
+});
 
 api.post("/postReceta", (req, res) => {
   console.log("entro");
-  postRe(r => res.send(r), req.body);});
+  postRe(r => res.send(r), req.body);
+});
 
-
-api.get("/", function(req, res){
+api.get("/", function(req, res) {
   console.log("api general");
-  getRecetas(function(tweets){
+  getRecetas(function(tweets) {
     res.send(tweets);
   }, []);
-
 });
 
 app.listen(3001, () => {
