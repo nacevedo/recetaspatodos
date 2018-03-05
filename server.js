@@ -82,5 +82,5 @@ api.get("/", function(req, res){
 });
 
 app.listen(3001, () => {
-  console.log("Listening on:");
+  console.log("Listening on:3001");
 });

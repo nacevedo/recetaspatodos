@@ -17,15 +17,16 @@ p.desc {
   background-color: transparent;
   color: black;
   padding: 10px;
-
+  border-style: dashed;
   position: relative;
 }
 
 li.ingr {
   font-size: 1.1vw;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(254, 209, 55);
   background-size: cover;
+  padding-left: 15px;
 }
 
 h1.mod {
