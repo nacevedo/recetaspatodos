@@ -39,7 +39,11 @@ class App extends React.Component {
       .then(function(res) {
         return res.json();
       })
-      .then(recetas => this.setState({ recetas: recetas }));
+      .then(recetas => {
+        let a = recetas;
+        if (a.length==0) a.push({nombre: "vacio"});
+        return this.setState({ recetas: a });
+      });
   }
 
   render() {
