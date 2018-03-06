@@ -3,6 +3,8 @@ import ListaRecetas from "./components/ListaRecetas.js";
 import SearchBox from "./components/SearchBox.js";
 import FiltroIngredientes from "./components/FiltroIngredientes.js";
 
+//Revisen tildes de los ingredientes que tienen en la base de datos.  
+
 class App extends React.Component {
   constructor() {
     super();
