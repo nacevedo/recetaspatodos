@@ -1,5 +1,5 @@
 import React from "react";
-
+//Cuando se hace un segundo formualro no sale la infromación de este. Además si la imagen no es puesta correctamte no se puede ver la infomación detallada de la receta.
 class Post extends React.Component {
   constructor() {
     super();
