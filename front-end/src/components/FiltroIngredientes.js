@@ -1,5 +1,5 @@
 import React from "react";
-
+//Nicolás Acevedo: Revisar el filtro por ingredientes ya que en la versión desplegada en Heroku no esta funcionando correctamente. 
 class FiltroIngredientes extends React.Component {
   constructor() {
     super();
